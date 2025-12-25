@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}    
+body,html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-image: url('background\ image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(17, 16, 16);
+    }
+    .blur{
+        background-color: black;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        opacity: 0.69;
+    }
+.main{
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 60px;
+    background-color: rgba(60, 58, 58, 0.799);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 600px;
+    width: 469px;    
+}
+h2{
+    text-align: left;
+    padding: 20px;
+}
+::placeholder{
+    color: aliceblue;    
+}
+#email{
+    text-align: center;
+    background-color: gray;
+    border: 0px;
+    border-radius: 5px;
+    height: 50px;
+    width:350px;
+    margin: 10px;    
+}
+#pass{
+    text-align: center;
+    background-color: gray;
+    border: 0px;
+    border-radius: 5px;
+    height: 50px;
+    width: 350px;
+    margin: 10px;
+}
+#sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 5px;
+    height: 40px;
+    width: 350px;
+    margin: 10px;
+    background-color: red;    
+}
+#code{
+    font-size: 15px;
+    border: 0px;
+    color: aliceblue;
+    border-radius: 3px;
+    height: 40px;
+    width: 350px;
+    margin: 10px;
+    background-color: rgb(237, 236, 236);
+}
+#forgot{
+    
+    font-size: 16px;
+    padding: 114px;
+    margin-left: 5px;
+    text-align: center;
+}
+a{
+    margin-left: 9.8px;
+    font-size: 17px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.box{
+    margin: 10px;
+   margin-left: 11px;
+}  
+#new{
+    margin-left:11px;
+}
+#captcha{  
+    margin-left: 9.8px;
+    font-size: 15px;
+    color: rgb(194, 192, 192);
+}
+#learn{
+    color: blue;
+    text-decoration: underline;
+}
+p1{
+    margin-left: 180px;
+}
+p2{    
+    margin-left: 9.9px
+}
+p3{
+    font-size: 10px;
+    margin-left: 11px;
+}
+.loginpart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+footer{
+    background-color: black;
+    height: 300px;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    ul{
+        display: flex;
+        align-items: center;
+        height: 200px;
+        width: 100%;
+
+        li{
+            display: block;
+            margin-right: 50px;
+            
+        }
+    }
+}
